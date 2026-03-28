@@ -286,4 +286,30 @@
 /*
 .theme-entry .form { background: var(--bg-page); }
 */
-``
+
+/* -------------------------------------------------
+   K2 Table Layout Spacing Fix
+   ------------------------------------------------- */
+
+/* Reduce default K2 cell padding */
+.theme-entry table td {
+  padding-top: 6px !important;
+  padding-bottom: 6px !important;
+}
+
+/* Remove extra spacing when a TD only contains our styled blocks */
+.theme-entry table td > .phibro-section-title,
+.theme-entry table td > .phibro-divider,
+.theme-entry table td > .phibro-instructions {
+  margin-top: 0 !important;
+}
+
+/* Tighten divider spacing inside table rows */
+.phibro-divider {
+  margin: 6px 0 10px 0;
+}
+
+/* Tighten instruction container vertical spacing */
+.phibro-instructions {
+  margin-bottom: 8px;
+}
