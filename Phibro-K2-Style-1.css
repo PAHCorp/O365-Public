@@ -96,7 +96,7 @@
 .phibro-section-title {
   font-size: var(--section-title-pt);
   font-weight: 600;
-  color: red !important; /* slate blue for headings */
+  color: #1F3A5F; /* slate blue for headings */
   margin: 0 0 var(--space-3) 0;
 }
 
